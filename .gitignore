@@ -9,3 +9,6 @@ Populations_tajD_FuLiF.jpeg
 *.RData
 *.tsv
 *.txt
+.Rproj.user
+.Rhistory
+.Ruserdata
