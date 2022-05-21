@@ -1,0 +1,11 @@
+
+
+#data/
+all_figures/
+*.xlsx
+Populations_tajD_FuLiF.jpeg
+.Rhistory
+.Rproj.user/
+*.RData
+*.tsv
+*.txt
