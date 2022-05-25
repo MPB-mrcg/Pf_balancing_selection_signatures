@@ -1,0 +1,24 @@
+ Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: lm(formula = TajimasD ~ Pop, data = tajima)
+
+Linear Hypotheses:
+                  Estimate Std. Error  t value Pr(>|t|)    
+EAF - CAF == 0    0.029572   0.013080    2.261    0.203    
+HAF - CAF == 0    2.123693   0.021010  101.079   <0.001 ***
+SCAF - CAF == 0   0.202575   0.013707   14.779   <0.001 ***
+SEAF - CAF == 0   0.031550   0.013066    2.415    0.145    
+WAF - CAF == 0   -0.302369   0.012812  -23.601   <0.001 ***
+HAF - EAF == 0    2.094122   0.021035   99.553   <0.001 ***
+SCAF - EAF == 0   0.173004   0.013745   12.587   <0.001 ***
+SEAF - EAF == 0   0.001978   0.013106    0.151    1.000    
+WAF - EAF == 0   -0.331940   0.012852  -25.827   <0.001 ***
+SCAF - HAF == 0  -1.921118   0.021430  -89.645   <0.001 ***
+SEAF - HAF == 0  -2.092143   0.021026  -99.500   <0.001 ***
+WAF - HAF == 0   -2.426062   0.020869 -116.251   <0.001 ***
+SEAF - SCAF == 0 -0.171025   0.013732  -12.455   <0.001 ***
+WAF - SCAF == 0  -0.504944   0.013489  -37.433   <0.001 ***
+WAF - SEAF == 0  -0.333919   0.012838  -26.010   <0.001 ***

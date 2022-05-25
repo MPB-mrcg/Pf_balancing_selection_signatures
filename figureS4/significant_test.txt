@@ -1,0 +1,132 @@
+Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: lm(formula = Tajima ~ Population, data = tajima)
+
+Linear Hypotheses:
+                               Estimate Std. Error t value Pr(>|t|)    
+Congo - Cameroon == 0          0.001891   0.015997   0.118   1.0000    
+Ethiopia - Cameroon == 0       1.841861   0.024079  76.494    <0.01 ***
+Gabon - Cameroon == 0          0.425659   0.017203  24.744    <0.01 ***
+Gambia - Cameroon == 0         0.170880   0.016000  10.680    <0.01 ***
+Ghana - Cameroon == 0         -0.051762   0.015325  -3.378   0.0556 .  
+Guinea - Cameroon == 0         0.058197   0.015984   3.641   0.0234 *  
+Ivory_Coast - Cameroon == 0    0.035398   0.015993   2.213   0.6801    
+Kenya - Cameroon == 0          0.043925   0.016052   2.737   0.2999    
+Madagascar - Cameroon == 0     0.991038   0.019481  50.872    <0.01 ***
+Malawi - Cameroon == 0         0.012945   0.015500   0.835   1.0000    
+Mali - Cameroon == 0          -0.039173   0.015708  -2.494   0.4682    
+Mauritania - Cameroon == 0     0.090080   0.016091   5.598    <0.01 ***
+Nigeria - Cameroon == 0        0.570660   0.017539  32.537    <0.01 ***
+Senegal - Cameroon == 0        0.437831   0.017123  25.570    <0.01 ***
+Tanzania - Cameroon == 0       0.092706   0.015672   5.915    <0.01 ***
+Ethiopia - Congo == 0          1.839970   0.024365  75.518    <0.01 ***
+Gabon - Congo == 0             0.423767   0.017601  24.077    <0.01 ***
+Gambia - Congo == 0            0.168989   0.016427  10.287    <0.01 ***
+Ghana - Congo == 0            -0.053654   0.015771  -3.402   0.0522 .  
+Guinea - Congo == 0            0.056305   0.016412   3.431   0.0472 *  
+Ivory_Coast - Congo == 0       0.033507   0.016421   2.041   0.7949    
+Kenya - Congo == 0             0.042034   0.016477   2.551   0.4263    
+Madagascar - Congo == 0        0.989146   0.019833  49.873    <0.01 ***
+Malawi - Congo == 0            0.011054   0.015940   0.693   1.0000    
+Mali - Congo == 0             -0.041064   0.016143  -2.544   0.4306    
+Mauritania - Congo == 0        0.088188   0.016515   5.340    <0.01 ***
+Nigeria - Congo == 0           0.568769   0.017929  31.723    <0.01 ***
+Senegal - Congo == 0           0.435939   0.017523  24.878    <0.01 ***
+Tanzania - Congo == 0          0.090815   0.016108   5.638    <0.01 ***
+Gabon - Ethiopia == 0         -1.416202   0.025173 -56.260    <0.01 ***
+Gambia - Ethiopia == 0        -1.670981   0.024367 -68.576    <0.01 ***
+Ghana - Ethiopia == 0         -1.893624   0.023929 -79.135    <0.01 ***
+Guinea - Ethiopia == 0        -1.783664   0.024356 -73.232    <0.01 ***
+Ivory_Coast - Ethiopia == 0   -1.806463   0.024362 -74.150    <0.01 ***
+Kenya - Ethiopia == 0         -1.797936   0.024400 -73.685    <0.01 ***
+Madagascar - Ethiopia == 0    -0.850824   0.026781 -31.769    <0.01 ***
+Malawi - Ethiopia == 0        -1.828916   0.024041 -76.075    <0.01 ***
+Mali - Ethiopia == 0          -1.881034   0.024176 -77.806    <0.01 ***
+Mauritania - Ethiopia == 0    -1.751782   0.024426 -71.718    <0.01 ***
+Nigeria - Ethiopia == 0       -1.271201   0.025403 -50.041    <0.01 ***
+Senegal - Ethiopia == 0       -1.404030   0.025118 -55.897    <0.01 ***
+Tanzania - Ethiopia == 0      -1.749155   0.024152 -72.421    <0.01 ***
+Gambia - Gabon == 0           -0.254779   0.017604 -14.473    <0.01 ***
+Ghana - Gabon == 0            -0.477421   0.016993 -28.096    <0.01 ***
+Guinea - Gabon == 0           -0.367462   0.017589 -20.891    <0.01 ***
+Ivory_Coast - Gabon == 0      -0.390260   0.017598 -22.177    <0.01 ***
+Kenya - Gabon == 0            -0.381734   0.017650 -21.628    <0.01 ***
+Madagascar - Gabon == 0        0.565379   0.020818  27.158    <0.01 ***
+Malawi - Gabon == 0           -0.412713   0.017150 -24.065    <0.01 ***
+Mali - Gabon == 0             -0.464832   0.017339 -26.809    <0.01 ***
+Mauritania - Gabon == 0       -0.335579   0.017686 -18.974    <0.01 ***
+Nigeria - Gabon == 0           0.145001   0.019013   7.626    <0.01 ***
+Senegal - Gabon == 0           0.012172   0.018630   0.653   1.0000    
+Tanzania - Gabon == 0         -0.332953   0.017306 -19.239    <0.01 ***
+Ghana - Gambia == 0           -0.222643   0.015774 -14.114    <0.01 ***
+Guinea - Gambia == 0          -0.112683   0.016415  -6.865    <0.01 ***
+Ivory_Coast - Gambia == 0     -0.135482   0.016424  -8.249    <0.01 ***
+Kenya - Gambia == 0           -0.126955   0.016481  -7.703    <0.01 ***
+Madagascar - Gambia == 0       0.820157   0.019836  41.347    <0.01 ***
+Malawi - Gambia == 0          -0.157935   0.015944  -9.906    <0.01 ***
+Mali - Gambia == 0            -0.210053   0.016147 -13.009    <0.01 ***
+Mauritania - Gambia == 0      -0.080800   0.016519  -4.891    <0.01 ***
+Nigeria - Gambia == 0          0.399780   0.017932  22.294    <0.01 ***
+Senegal - Gambia == 0          0.266951   0.017526  15.232    <0.01 ***
+Tanzania - Gambia == 0        -0.078174   0.016111  -4.852    <0.01 ***
+Guinea - Ghana == 0            0.109959   0.015758   6.978    <0.01 ***
+Ivory_Coast - Ghana == 0       0.087161   0.015767   5.528    <0.01 ***
+Kenya - Ghana == 0             0.095687   0.015826   6.046    <0.01 ***
+Madagascar - Ghana == 0        1.042800   0.019296  54.043    <0.01 ***
+Malawi - Ghana == 0            0.064708   0.015266   4.239    <0.01 ** 
+Mali - Ghana == 0              0.012590   0.015478   0.813   1.0000    
+Mauritania - Ghana == 0        0.141842   0.015866   8.940    <0.01 ***
+Nigeria - Ghana == 0           0.622423   0.017333  35.910    <0.01 ***
+Senegal - Ghana == 0           0.489593   0.016912  28.949    <0.01 ***
+Tanzania - Ghana == 0          0.144468   0.015441   9.356    <0.01 ***
+Ivory_Coast - Guinea == 0     -0.022798   0.016408  -1.389   0.9913    
+Kenya - Guinea == 0           -0.014272   0.016465  -0.867   1.0000    
+Madagascar - Guinea == 0       0.932841   0.019823  47.058    <0.01 ***
+Malawi - Guinea == 0          -0.045251   0.015928  -2.841   0.2390    
+Mali - Guinea == 0            -0.097370   0.016131  -6.036    <0.01 ***
+Mauritania - Guinea == 0       0.031883   0.016503   1.932   0.8566    
+Nigeria - Guinea == 0          0.512463   0.017918  28.601    <0.01 ***
+Senegal - Guinea == 0          0.379634   0.017511  21.679    <0.01 ***
+Tanzania - Guinea == 0         0.034509   0.016095   2.144   0.7294    
+Kenya - Ivory_Coast == 0       0.008527   0.016474   0.518   1.0000    
+Madagascar - Ivory_Coast == 0  0.955639   0.019830  48.190    <0.01 ***
+Malawi - Ivory_Coast == 0     -0.022453   0.015937  -1.409   0.9902    
+Mali - Ivory_Coast == 0       -0.074571   0.016140  -4.620    <0.01 ***
+Mauritania - Ivory_Coast == 0  0.054681   0.016512   3.312   0.0686 .  
+Nigeria - Ivory_Coast == 0     0.535262   0.017926  29.859    <0.01 ***
+Senegal - Ivory_Coast == 0     0.402432   0.017520  22.970    <0.01 ***
+Tanzania - Ivory_Coast == 0    0.057307   0.016105   3.558   0.0314 *  
+Madagascar - Kenya == 0        0.947113   0.019877  47.648    <0.01 ***
+Malawi - Kenya == 0           -0.030980   0.015995  -1.937   0.8538    
+Mali - Kenya == 0             -0.083098   0.016197  -5.130    <0.01 ***
+Mauritania - Kenya == 0        0.046155   0.016568   2.786   0.2695    
+Nigeria - Kenya == 0           0.526735   0.017978  29.299    <0.01 ***
+Senegal - Kenya == 0           0.393906   0.017573  22.416    <0.01 ***
+Tanzania - Kenya == 0          0.048781   0.016162   3.018   0.1575    
+Malawi - Madagascar == 0      -0.978092   0.019435 -50.328    <0.01 ***
+Mali - Madagascar == 0        -1.030210   0.019601 -52.558    <0.01 ***
+Mauritania - Madagascar == 0  -0.900958   0.019909 -45.254    <0.01 ***
+Nigeria - Madagascar == 0     -0.420377   0.021096 -19.926    <0.01 ***
+Senegal - Madagascar == 0     -0.553207   0.020752 -26.658    <0.01 ***
+Tanzania - Madagascar == 0    -0.898332   0.019572 -45.898    <0.01 ***
+Mali - Malawi == 0            -0.052118   0.015651  -3.330   0.0669 .  
+Mauritania - Malawi == 0       0.077134   0.016034   4.811    <0.01 ***
+Nigeria - Malawi == 0          0.557715   0.017487  31.893    <0.01 ***
+Senegal - Malawi == 0          0.424885   0.017070  24.891    <0.01 ***
+Tanzania - Malawi == 0         0.079760   0.015614   5.108    <0.01 ***
+Mauritania - Mali == 0         0.129253   0.016236   7.961    <0.01 ***
+Nigeria - Mali == 0            0.609833   0.017672  34.508    <0.01 ***
+Senegal - Mali == 0            0.477004   0.017260  27.637    <0.01 ***
+Tanzania - Mali == 0           0.131879   0.015821   8.335    <0.01 ***
+Nigeria - Mauritania == 0      0.480580   0.018013  26.680    <0.01 ***
+Senegal - Mauritania == 0      0.347751   0.017608  19.749    <0.01 ***
+Tanzania - Mauritania == 0     0.002626   0.016201   0.162   1.0000    
+Senegal - Nigeria == 0        -0.132829   0.018941  -7.013    <0.01 ***
+Tanzania - Nigeria == 0       -0.477954   0.017640 -27.095    <0.01 ***
+Tanzania - Senegal == 0       -0.345125   0.017227 -20.034    <0.01 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+(Adjusted p values reported -- single-step method)
